@@ -1,0 +1,10 @@
+spec:
+  auth:
+    externalIdentityProvider: true
+    identityProviderURL: https://sts.windows.net/${TENANT_ID}/v2.0/
+    oAuthClientName: ${CLIENT_ID}
+    oAuthSecret: ${CLIENT_SECRET}
+  server:
+    customCheProperties:
+      CHE_OIDC_AUTH__SERVER__URL: https://sts.windows.net/${TENANT_ID}/v2.0/
+      CHE_OIDC_USERNAME__CLAIM: name
