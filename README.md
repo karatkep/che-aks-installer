@@ -10,7 +10,7 @@ export CHE_DOMAIN=
 
 ```
 chectl server:deploy --installer operator -p k8s --skip-oidc-provider-check \
-    --che-operator-image=docker.io/karatkep/che-operator:beta \
+    --che-operator-image=docker.io/karatkep/che-operator:gamma \
     --domain=${CHE_DOMAIN} \
     --che-operator-cr-patch-yaml=che-cluster.yml
 ```
