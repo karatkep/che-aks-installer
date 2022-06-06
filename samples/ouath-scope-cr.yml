@@ -1,0 +1,6 @@
+spec:
+  auth:
+    identityProviderURL: https://sts.windows.net/test-idp/v2.0/
+    oAuthClientName: client-id
+    oAuthSecret: client-secret
+    oAuthScope: "scope1 scope2 scope3"
